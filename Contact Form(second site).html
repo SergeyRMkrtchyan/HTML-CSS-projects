@@ -1,0 +1,184 @@
+<html>
+
+<head>
+    <title>Contact Form Example</title>
+    <style>
+        html,
+        body {
+            width: 100%;
+            height: 100%;
+            margin: 0;
+        }
+        
+        .main {
+            background: #32a09f;
+            height: 100%;
+            position: relative;
+        }
+        
+        .header {
+            position: absolute;
+            width: 50%;
+            height: 10%;
+            left: 25%;
+            top: 15%;
+            text-align: center;
+            font-size: 5vmin;
+            color: white;
+            font-family: sans-serif;
+        }
+        
+        form {
+            position: absolute;
+            background: white;
+            width: 50%;
+            height: auto;
+            left: 25%;
+            top: 25%;
+            border-radius: 7px;
+            box-sizing: border-box;
+        }
+        
+        ul {
+            list-style: none;
+            padding: 1.2vmin;
+        }
+        
+        .text {
+            width: 15%;
+            color: #000;
+            font-size: 1em;
+            font-weight: 400;
+            float: left;
+            padding-top: 0.5em;
+            text-align: right;
+            margin-right: 1.5em;
+            font-family: sans-serif;
+            padding-bottom: .5em;
+        }
+        
+        input[type="submit"] {
+            width: 35%;
+            position: relative;
+            left: 30%;
+        }
+        
+        input {
+            border: none;
+            margin: 6px;
+            position: relative;
+            height: 23px;
+            right: 1.1%;
+        }
+        
+        input, textarea {
+            width: 70%;
+            padding: 5px;
+            font-size: 15px;
+            font-weight: 400;
+            border: 1px solid #e6e6e6;
+            outline: none;
+            color: #222;
+            float: left;
+            background: #eee;
+            display: inline-block;
+            font-size: 0.9em;
+            border: none;
+        }
+        
+        textarea {
+            height: 15%;
+            margin-right: 11px;
+            margin-top: 6px;
+            border: none;
+        }
+        
+        .button {
+            font-size: 2vmin;
+            border: none;
+            background: #32A09F;
+            color: white;
+            cursor: pointer;
+            width: 35%;
+            font-family: sans-serif;
+            margin: 6vmin 5vmin 10vmin 3vmin;
+        }
+        
+        h2 {
+            text-align: center;
+            font-size: 2.5vmin;
+            font-family: sans-serif;
+            font-weight: normal;
+        }
+        
+        .footer {
+            position: absolute;
+            width: 50%;
+            height: 10%;
+            left: 25%;
+            top: 85%;
+            text-align: center;
+            font-size: 4vmin;
+            color: white;
+            font-family: sans-serif;
+        }
+        
+        p {
+            text-align: center;
+            font-size: 2.5vmin;
+            display: inline-block;
+            color: white;
+            font-family: sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class='main'>
+
+        <div class='header'>Easy Contact Form</div>
+
+        <form>
+          <h2>Send Us Some Electronic Mail</h2>
+            <ul>
+              <li class="text">Name</li>
+              <li><input type="text" placeholder=''></li>
+              <div class="clear"></div>
+            </ul>
+            <ul>
+              <li class="text">Company</li>
+              <li><input type="text" placeholder=''></li>
+              <div class="clear"></div>
+            </ul>
+            <ul>
+              <li class="text">Email</li>
+              <li><input type="text" placeholder=''></li>
+              <div class="clear"></div>
+            </ul>
+            <ul>
+              <li class="text">Phone</li>
+              <li><input type="text" placeholder=''></li>
+              <div class="clear"></div>
+            </ul>
+            <ul>
+              <li class="text">Message</li>
+              <li><textarea></textarea></li>
+              <div class="clear"></div>
+            </ul>
+            <ul>
+            <input type="submit" class = 'button' value="Send Message">
+            </ul>
+           </form>
+
+        <div class='footer'>
+            <p>&copy Designed by a beginner</p>
+        </div>
+    </div>
+
+    </div>
+    </form>
+
+</body>
+
+</html>
